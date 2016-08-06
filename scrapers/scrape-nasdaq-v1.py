@@ -1,6 +1,6 @@
 """Will print the fiscal data as published by the nasdaq"""
 # Need to implement error handling. 
-
+# Initial commit -- needs changes and expansion
 from bs4 import BeautifulSoup
 import urllib
 r = urllib.urlopen('http://www.nasdaq.com/symbol/td/earnings-forecast').read()
